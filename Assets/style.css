@@ -13,18 +13,129 @@
     padding: 0;
 }
 
-body {
-    margin: 2rem;
+#main_back {
+    background-color: grey;
+    height: 1000px;
 }
 
-#icon-logo {
+#site_head {
+    background-color: #fff;
+}
+
+#icon_logo {
     vertical-align: middle;
 }
+
 
 #logo {
     font-size: 2rem;
     font-family: 'Arial', sans-serif;
     display: inline-block; 
-    vertical-align: middle;
+    vertical-align: middle; 
 }
 
+
+#main_container {
+    width: 785px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+#add {
+    border-bottom: 1px solid #F6F8F9;
+    padding: 1rem 2rem;
+}
+
+button {
+    border-radius: 5px;
+    border-width: 0rem;
+    appearance: none;
+    padding: 8px;
+    margin: 5px;
+}
+
+#task {
+    background-color: var(--editorial-color);
+    color: #fff;
+}
+
+#section {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid #C5CBD0;
+}
+
+/* task list */
+#task_list {
+    margin: 1.5rem 2rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+.task {
+    margin: 20px 0;
+}
+
+.correct {
+    border-radius: 50%;
+    border: solid 1px green;
+    height: 20px;
+    width: 20px;
+    color: green;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.uncorrect {
+    border-radius: 50%;
+    border: solid 1px red;
+    height: 20px;
+    width: 20px;
+    color: red;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.category {
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.editorial {
+    background-color: var(--editorial-color);
+}
+
+.mobile {
+    background-color: var(--mobile-color);
+}
+
+.recruiting {
+    background-color: var(--recruting-color);
+}
+
+.goals {
+    background-color: var(--q1-goals-color);
+}
+
+.website {
+    background-color: var(--website-icon-color);
+}
+
+.sales {
+    background-color: var(--sales-color);
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
